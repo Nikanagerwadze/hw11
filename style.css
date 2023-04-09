@@ -1,0 +1,197 @@
+*{
+    box-sizing: border-box;
+}
+
+.nav-link{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 140%;
+    
+    text-align: center;
+    
+    color: #FFFFFF; 
+}
+
+.nav-link:hover{
+    transform: scale(0.95);
+
+}
+
+
+.navbar-toggler{
+    border: 0;
+}
+
+.nav-link{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 140%;
+    /* or 22px */
+    
+    text-align: center;
+    
+    color: #FFFFFF; 
+
+}
+
+.nav-link:hover{
+    transform: scale(0.95);
+}
+
+
+.TTn{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 30px;
+    gap: 12px;
+
+    width: 152px;
+    height: 60px;
+
+    background: #A259FF;
+    border-radius: 20px;
+    border: 0;
+
+
+
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 140%;
+
+    text-align: center;
+
+    color: #FFFFFF;
+
+    transition-property: transform;
+    transition-duration: 0.3s;
+}
+
+.TTn:hover{
+    transform: scale(0.95);
+    transition: all 0.3;
+}
+
+.nav-link{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 140%;
+
+    text-align: center;
+    
+    color: #FFFFFF; 
+
+    transition-property: transform;
+    transition-duration: 0.3s;
+}
+
+.nav-link:hover{
+    transform: scale(0.95);
+}
+
+.headlinesubline{
+    color: white;
+    display: grid;
+    gap: 30px;
+}
+
+.btnn{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+
+    height: 60px;
+
+    background: #A259FF;
+    border-radius: 20px;
+    border: 0;
+
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 140%;
+
+    text-align: center;
+
+    color: #FFFFFF;
+
+    transition-property: transform;
+    transition-duration: 0.3s;
+}
+
+.btnn:hover{
+    transform: scale(0.95);
+    transition: all 0.3;
+}
+
+.Total>h1{
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 140%;
+  
+    display: flex;
+    align-items: center;
+    text-transform: capitalize;
+
+    color: #FFFFFF;
+}
+
+.Total>p{
+    font-weight: 400;
+    font-size: 23.99px;
+    line-height: 160%;
+
+    text-transform: capitalize;
+
+    color: #FFFFFF;  
+}
+
+.Auctions>h1{
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 140%;
+  
+    display: flex;
+    align-items: center;
+    text-transform: capitalize;
+
+    color: #FFFFFF;
+}
+
+.Auctions>p{
+    font-weight: 400;
+    font-size: 23.99px;
+    line-height: 160%;
+
+    text-transform: capitalize;
+
+    color: #FFFFFF;  
+}
+
+.Artists>h1{
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 140%;
+  
+    display: flex;
+    align-items: center;
+    text-transform: capitalize;
+
+    color: #FFFFFF;
+}
+
+.Artists>p{
+    font-weight: 400;
+    font-size: 23.99px;
+    line-height: 160%;
+
+    text-transform: capitalize;
+
+    color: #FFFFFF;  
+}
