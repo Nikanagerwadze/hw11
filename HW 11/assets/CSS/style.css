@@ -1,16 +1,20 @@
+@font-face {
+    font-family: mono ;
+    src: url(../fonts/SpaceMono-Bold.ttf);
+}
+
+@font-face {
+    font-family: sans;
+    src: url(../fonts/WorkSans-VariableFont_wght.ttf);
+}
+
 *{
     box-sizing: border-box;
 }
 
-.nav-link{
-    font-style: normal;
-    font-weight: 600;
-    font-size: 16px;
-    line-height: 140%;
-    
-    text-align: center;
-    
-    color: #FFFFFF; 
+
+body{
+background-color: #2B2B2B;
 }
 
 .nav-link:hover{
@@ -21,19 +25,6 @@
 
 .navbar-toggler{
     border: 0;
-}
-
-.nav-link{
-    font-style: normal;
-    font-weight: 600;
-    font-size: 16px;
-    line-height: 140%;
-    /* or 22px */
-    
-    text-align: center;
-    
-    color: #FFFFFF; 
-
 }
 
 .nav-link:hover{
@@ -57,7 +48,7 @@
     border: 0;
 
 
-
+    font-family: sans;
     font-style: normal;
     font-weight: 600;
     font-size: 16px;
@@ -77,6 +68,7 @@
 }
 
 .nav-link{
+    font-family: sans;
     font-style: normal;
     font-weight: 600;
     font-size: 16px;
@@ -101,6 +93,7 @@
 }
 
 .btnn{
+    font-family: sans;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -131,6 +124,7 @@
 }
 
 .Total>h1{
+    font-family: mono;
     font-weight: 700;
     font-size: 28px;
     line-height: 140%;
@@ -143,6 +137,7 @@
 }
 
 .Total>p{
+    font-family: sans;
     font-weight: 400;
     font-size: 23.99px;
     line-height: 160%;
@@ -153,6 +148,7 @@
 }
 
 .Auctions>h1{
+    font-family: mono;
     font-weight: 700;
     font-size: 28px;
     line-height: 140%;
@@ -165,6 +161,7 @@
 }
 
 .Auctions>p{
+    font-family: sans;
     font-weight: 400;
     font-size: 23.99px;
     line-height: 160%;
@@ -175,6 +172,7 @@
 }
 
 .Artists>h1{
+    font-family: mono;
     font-weight: 700;
     font-size: 28px;
     line-height: 140%;
@@ -187,6 +185,7 @@
 }
 
 .Artists>p{
+    font-family: sans;
     font-weight: 400;
     font-size: 23.99px;
     line-height: 160%;
@@ -194,4 +193,86 @@
     text-transform: capitalize;
 
     color: #FFFFFF;  
+}
+
+.text>h1{
+    font-family: 'Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 38px;
+    line-height: 120%;
+
+    text-transform: capitalize;
+
+    color: #FFFFFF;
+}
+
+.text>p{
+    font-family: 'Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 160%;
+
+    text-transform: capitalize;
+
+    color: #FFFFFF;
+}
+
+.info>h1{
+    font-family: 'Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 140%;
+
+    text-transform: capitalize;
+
+    color: #FFFFFF;
+}
+
+.info>p{
+    font-family: 'Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+
+    color: #FFFFFF;
+}
+
+.primary{
+    transition-property: transform;
+    transition-duration: 0.3s;
+}
+
+.primary:hover{
+    transform: scale(0.95);
+}
+
+.img1{
+    transition-property: transform;
+    transition-duration: 0.3s;
+}
+
+.img1:hover{
+    transform: scale(0.95);
+}
+
+.img2{
+    transition-property: transform;
+    transition-duration: 0.3s;
+}
+
+.img2:hover{
+    transform: scale(0.95);
+}
+
+.img3{
+    transition-property: transform;
+    transition-duration: 0.3s;
+}
+
+.img3:hover{
+    transform: scale(0.95);
 }
