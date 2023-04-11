@@ -1,5 +1,5 @@
 @font-face {
-    font-family: mono ;
+    font-family: mono;
     src: url(../fonts/SpaceMono-Bold.ttf);
 }
 
@@ -8,31 +8,63 @@
     src: url(../fonts/WorkSans-VariableFont_wght.ttf);
 }
 
-*{
+@media only screen and (max-width: 994px) {
+    .h11 {
+        font-size: 28px !important;
+    }
+}
+
+@media only screen and (max-width: 994px) {
+    .p1 {
+        font-size: 16px !important;
+    }
+}
+
+@media only screen and (max-width: 994px) {
+    .btnn{
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width: 200px) {
+    .headlinesubline{
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width: 576px) {
+    .text5{
+        width: 100%;
+    }
+}
+
+
+* {
     box-sizing: border-box;
 }
 
 
-body{
-background-color: #2B2B2B;
+body {
+    background-color: #2B2B2B;
+    overflow-x: hidden;
 }
 
-.nav-link:hover{
+.nav-link:hover {
     transform: scale(0.95);
 
 }
 
 
-.navbar-toggler{
+.navbar-toggler {
     border: 0;
 }
 
-.nav-link:hover{
+.nav-link:hover {
     transform: scale(0.95);
 }
 
 
-.TTn{
+.TTn {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -40,7 +72,6 @@ background-color: #2B2B2B;
     padding: 0px 30px;
     gap: 12px;
 
-    width: 152px;
     height: 60px;
 
     background: #A259FF;
@@ -62,12 +93,12 @@ background-color: #2B2B2B;
     transition-duration: 0.3s;
 }
 
-.TTn:hover{
+.TTn:hover {
     transform: scale(0.95);
     transition: all 0.3;
 }
 
-.nav-link{
+.nav-link {
     font-family: sans;
     font-style: normal;
     font-weight: 600;
@@ -75,24 +106,24 @@ background-color: #2B2B2B;
     line-height: 140%;
 
     text-align: center;
-    
-    color: #FFFFFF; 
+
+    color: #FFFFFF;
 
     transition-property: transform;
     transition-duration: 0.3s;
 }
 
-.nav-link:hover{
+.nav-link:hover {
     transform: scale(0.95);
 }
 
-.headlinesubline{
+.headlinesubline {
     color: white;
     display: grid;
     gap: 30px;
 }
 
-.btnn{
+.btnn {
     font-family: sans;
     display: flex;
     flex-direction: row;
@@ -118,17 +149,17 @@ background-color: #2B2B2B;
     transition-duration: 0.3s;
 }
 
-.btnn:hover{
+.btnn:hover {
     transform: scale(0.95);
     transition: all 0.3;
 }
 
-.Total>h1{
+.Total>h1 {
     font-family: mono;
     font-weight: 700;
     font-size: 28px;
     line-height: 140%;
-  
+
     display: flex;
     align-items: center;
     text-transform: capitalize;
@@ -136,7 +167,7 @@ background-color: #2B2B2B;
     color: #FFFFFF;
 }
 
-.Total>p{
+.Total>p {
     font-family: sans;
     font-weight: 400;
     font-size: 23.99px;
@@ -144,15 +175,15 @@ background-color: #2B2B2B;
 
     text-transform: capitalize;
 
-    color: #FFFFFF;  
+    color: #FFFFFF;
 }
 
-.Auctions>h1{
+.Auctions>h1 {
     font-family: mono;
     font-weight: 700;
     font-size: 28px;
     line-height: 140%;
-  
+
     display: flex;
     align-items: center;
     text-transform: capitalize;
@@ -160,7 +191,7 @@ background-color: #2B2B2B;
     color: #FFFFFF;
 }
 
-.Auctions>p{
+.Auctions>p {
     font-family: sans;
     font-weight: 400;
     font-size: 23.99px;
@@ -168,15 +199,15 @@ background-color: #2B2B2B;
 
     text-transform: capitalize;
 
-    color: #FFFFFF;  
+    color: #FFFFFF;
 }
 
-.Artists>h1{
+.Artists>h1 {
     font-family: mono;
     font-weight: 700;
     font-size: 28px;
     line-height: 140%;
-  
+
     display: flex;
     align-items: center;
     text-transform: capitalize;
@@ -184,7 +215,7 @@ background-color: #2B2B2B;
     color: #FFFFFF;
 }
 
-.Artists>p{
+.Artists>p {
     font-family: sans;
     font-weight: 400;
     font-size: 23.99px;
@@ -192,10 +223,10 @@ background-color: #2B2B2B;
 
     text-transform: capitalize;
 
-    color: #FFFFFF;  
+    color: #FFFFFF;
 }
 
-.text>h1{
+.text>h1 {
     font-family: 'Sans';
     font-style: normal;
     font-weight: 600;
@@ -207,7 +238,7 @@ background-color: #2B2B2B;
     color: #FFFFFF;
 }
 
-.text>p{
+.text>p {
     font-family: 'Sans';
     font-style: normal;
     font-weight: 400;
@@ -219,7 +250,7 @@ background-color: #2B2B2B;
     color: #FFFFFF;
 }
 
-.info>h1{
+.info>h1 {
     font-family: 'Sans';
     font-style: normal;
     font-weight: 600;
@@ -231,7 +262,7 @@ background-color: #2B2B2B;
     color: #FFFFFF;
 }
 
-.info>p{
+.info>p {
     font-family: 'Sans';
     font-style: normal;
     font-weight: 400;
@@ -241,38 +272,38 @@ background-color: #2B2B2B;
     color: #FFFFFF;
 }
 
-.primary{
+.primary {
     transition-property: transform;
     transition-duration: 0.3s;
 }
 
-.primary:hover{
+.primary:hover {
     transform: scale(0.95);
 }
 
-.img1{
+.img1 {
     transition-property: transform;
     transition-duration: 0.3s;
 }
 
-.img1:hover{
+.img1:hover {
     transform: scale(0.95);
 }
 
-.img2{
+.img2 {
     transition-property: transform;
     transition-duration: 0.3s;
 }
 
-.img2:hover{
+.img2:hover {
     transform: scale(0.95);
 }
 
-.img3{
+.img3 {
     transition-property: transform;
     transition-duration: 0.3s;
 }
 
-.img3:hover{
+.img3:hover {
     transform: scale(0.95);
 }
